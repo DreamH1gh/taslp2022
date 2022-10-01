@@ -1,12 +1,12 @@
 import time
+import math
 import torch
+import torch.nn as nn
 import torch.optim.lr_scheduler
 from torch.utils.data import Dataset
 import random
 import argparse
 from driver.Config import *
-from model.SAModel import *
-from model.BertModel import *
 from driver.SAHelper import *
 from data.Dataloader import *
 from data.GetNoiseData import *
